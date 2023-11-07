@@ -11,6 +11,7 @@ data_1=data[::-1]
 
 fig, ax = plt.subplots()
 ax.table(cellText=data, loc='center')
+
 display(fig)
 plt.show()
 time.sleep(1)
